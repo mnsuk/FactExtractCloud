@@ -1,0 +1,733 @@
+<?xml version="1.1" encoding="UTF-8"?><xmi:XMI xmlns:uimatypes="http:///com/ibm/langware/uimatypes.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:ecmuk="http:///com/ibm/ecmuk.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:en="http:///com/ibm/ecmuk/en.ecore" xmlns:nlp="http:///com/ibm/es/nlp.ecore" xmlns:reserved="http:///com/ibm/langware/reserved.ecore" xmlns:pas="http:///com/ibm/es/nlp/pas.ecore" xmlns:marker="http:///com/ibm/lw/marker.ecore" xmlns:en2="http:///com/ibm/lw/marker/en.ecore" xmlns:tt="http:///uima/tt.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="705" language="en"/>
+    <ecmuk:DicFirstNames xmi:id="17" sofa="1" begin="2" end="8" lemma="23" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="388" sofa="1" begin="80" end="85" lemma="394" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="524" sofa="1" begin="107" end="112" lemma="530" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="687" sofa="1" begin="138" end="142" lemma="693" gender="female"/>
+    <ecmuk:DicFirstNames xmi:id="871" sofa="1" begin="171" end="176" lemma="877" gender="female"/>
+    <ecmuk:DicFirstNames xmi:id="1186" sofa="1" begin="227" end="232" lemma="1192" gender="female"/>
+    <ecmuk:DicFirstNames xmi:id="1373" sofa="1" begin="268" end="272" lemma="1379" gender="female"/>
+    <ecmuk:DicFirstNames xmi:id="1742" sofa="1" begin="340" end="345" lemma="1748" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="1972" sofa="1" begin="384" end="388" lemma="1978" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="2092" sofa="1" begin="414" end="419" lemma="2098" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="2282" sofa="1" begin="441" end="445" lemma="2288" gender="female"/>
+    <ecmuk:DicFirstNames xmi:id="2621" sofa="1" begin="502" end="507" lemma="2627" gender="female"/>
+    <ecmuk:DicFirstNames xmi:id="2971" sofa="1" begin="578" end="584" lemma="2977" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="3091" sofa="1" begin="621" end="626" lemma="3097" gender="male"/>
+    <ecmuk:DicFirstNames xmi:id="3353" sofa="1" begin="670" end="676" lemma="3359" gender="male"/>
+    <uimatypes:TitlecaseAlphabetic xmi:id="27" sofa="1" begin="2" end="8" lemma="23" lemmaEntries="23" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="40" sofa="1" begin="9" end="17" lemma="247" lemmaEntries="247" dictionaryMatch="false" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="92" sofa="1" begin="31" end="39" lemma="291" lemmaEntries="291" dictionaryMatch="false" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="398" sofa="1" begin="80" end="85" lemma="394" lemmaEntries="394" dictionaryMatch="true" posTag="RB" takmiPOS="adverb"/>
+    <uimatypes:TitlecaseAlphabetic xmi:id="456" sofa="1" begin="96" end="102" lemma="452" lemmaEntries="452" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="534" sofa="1" begin="107" end="112" lemma="530" lemmaEntries="530" dictionaryMatch="true" posTag="RB" takmiPOS="adverb"/>
+    <uimatypes:TitlecaseAlphabetic xmi:id="605" sofa="1" begin="127" end="133" lemma="601" lemmaEntries="601" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="697" sofa="1" begin="138" end="142" lemma="693" lemmaEntries="693" dictionaryMatch="true" posTag="PRP$" takmiPOS="pronoun">
+        <ftrs>possessive</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="710" sofa="1" begin="143" end="148" lemma="813" lemmaEntries="813" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="881" sofa="1" begin="171" end="176" lemma="877" lemmaEntries="877" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="894" sofa="1" begin="177" end="181" lemma="1075" lemmaEntries="1075" dictionaryMatch="true" posTag="VBD" takmiPOS="verb">
+        <ftrs>past</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="959" sofa="1" begin="196" end="202" lemma="1121" lemmaEntries="1121" dictionaryMatch="false" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1196" sofa="1" begin="227" end="232" lemma="1192" lemmaEntries="1192" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1254" sofa="1" begin="243" end="252" lemma="1250" lemmaEntries="1250" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1280" sofa="1" begin="256" end="263" lemma="1347" lemmaEntries="1347" dictionaryMatch="false" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1383" sofa="1" begin="268" end="272" lemma="1379" lemmaEntries="1379" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1435" sofa="1" begin="286" end="294" lemma="1635" lemmaEntries="1635" dictionaryMatch="false" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1752" sofa="1" begin="340" end="345" lemma="1748" lemmaEntries="1748" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1854" sofa="1" begin="364" end="371" lemma="1934" lemmaEntries="1934" dictionaryMatch="false" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1867" sofa="1" begin="372" end="379" lemma="1946" lemmaEntries="1946" dictionaryMatch="false" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="1982" sofa="1" begin="384" end="388" lemma="1978" lemmaEntries="1978" dictionaryMatch="true" posTag="RB" takmiPOS="adverb"/>
+    <uimatypes:TitlecaseAlphabetic xmi:id="2102" sofa="1" begin="414" end="419" lemma="2098" lemmaEntries="2098" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="2160" sofa="1" begin="430" end="436" lemma="2156" lemmaEntries="2156" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="2292" sofa="1" begin="441" end="445" lemma="2288" lemmaEntries="2288" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="2477" sofa="1" begin="488" end="497" lemma="2473" lemmaEntries="2473" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="2631" sofa="1" begin="502" end="507" lemma="2627" lemmaEntries="2627" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="2981" sofa="1" begin="578" end="584" lemma="2977" lemmaEntries="2977" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="3039" sofa="1" begin="595" end="601" lemma="3035" lemmaEntries="3035" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="3101" sofa="1" begin="621" end="626" lemma="3097" lemmaEntries="3097" dictionaryMatch="true" posTag="WDT" takmiPOS="determiner">
+        <ftrs>wh</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="3172" sofa="1" begin="642" end="651" lemma="3168" lemmaEntries="3168" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="3314" sofa="1" begin="656" end="659" lemma="3473" lemmaEntries="3473" dictionaryMatch="true" posTag="DT" takmiPOS="determiner"/>
+    <uimatypes:TitlecaseAlphabetic xmi:id="3363" sofa="1" begin="670" end="676" lemma="3359" lemmaEntries="3359" dictionaryMatch="true" posTag="PRP" takmiPOS="pronoun">
+        <ftrs>personal</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="3424" sofa="1" begin="692" end="696" lemma="3536" lemmaEntries="3536" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:TitlecaseAlphabetic xmi:id="3447" sofa="1" begin="697" end="700" lemma="3443" lemmaEntries="3443" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:TitlecaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="53" sofa="1" begin="18" end="21" lemma="259" lemmaEntries="259" dictionaryMatch="true" posTag="WP" takmiPOS="pronoun">
+        <ftrs>wh</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="66" sofa="1" begin="22" end="27" lemma="269" lemmaEntries="269" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="79" sofa="1" begin="28" end="30" lemma="281" lemmaEntries="281" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="105" sofa="1" begin="40" end="43" lemma="303" lemmaEntries="303" dictionaryMatch="true" posTag="CC" takmiPOS="conjunction">
+        <ftrs>coordinating</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="118" sofa="1" begin="44" end="48" lemma="313" lemmaEntries="313" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="131" sofa="1" begin="49" end="50" lemma="325" lemmaEntries="325" dictionaryMatch="true" posTag="DT" takmiPOS="determiner"/>
+    <uimatypes:LowercaseAlphabetic xmi:id="144" sofa="1" begin="51" end="57" lemma="332" lemmaEntries="332" dictionaryMatch="true" posTag="JJ" takmiPOS="adjective"/>
+    <uimatypes:LowercaseAlphabetic xmi:id="157" sofa="1" begin="58" end="61" lemma="339" lemmaEntries="339" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="179" sofa="1" begin="62" end="67" lemma="175" lemmaEntries="175" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="192" sofa="1" begin="68" end="71" lemma="357" lemmaEntries="357" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="420" sofa="1" begin="86" end="91" lemma="416" lemmaEntries="416" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="433" sofa="1" begin="92" end="95" lemma="493" lemmaEntries="493" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="547" sofa="1" begin="113" end="117" lemma="634" lemmaEntries="634" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="569" sofa="1" begin="118" end="122" lemma="646" lemmaEntries="646" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="582" sofa="1" begin="123" end="126" lemma="656" lemmaEntries="656" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="723" sofa="1" begin="149" end="151" lemma="823" lemmaEntries="823" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="745" sofa="1" begin="152" end="160" lemma="741" lemmaEntries="741" dictionaryMatch="true" posTag="VBN" takmiPOS="verb">
+        <ftrs>pastParticiple</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="758" sofa="1" begin="161" end="163" lemma="841" lemmaEntries="841" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="920" sofa="1" begin="183" end="186" lemma="1089" lemmaEntries="1089" dictionaryMatch="true" posTag="WP" takmiPOS="pronoun">
+        <ftrs>wh</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="933" sofa="1" begin="187" end="192" lemma="1099" lemmaEntries="1099" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="946" sofa="1" begin="193" end="195" lemma="1111" lemmaEntries="1111" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="985" sofa="1" begin="204" end="206" lemma="1137" lemmaEntries="1137" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1007" sofa="1" begin="207" end="215" lemma="1003" lemmaEntries="1003" dictionaryMatch="true" posTag="VBN" takmiPOS="verb">
+        <ftrs>pastParticiple</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1020" sofa="1" begin="216" end="218" lemma="1155" lemmaEntries="1155" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1218" sofa="1" begin="233" end="238" lemma="1214" lemmaEntries="1214" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1231" sofa="1" begin="239" end="242" lemma="1320" lemmaEntries="1320" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1267" sofa="1" begin="253" end="255" lemma="1337" lemmaEntries="1337" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1396" sofa="1" begin="273" end="276" lemma="1603" lemmaEntries="1603" dictionaryMatch="true" posTag="WP" takmiPOS="pronoun">
+        <ftrs>wh</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1409" sofa="1" begin="277" end="282" lemma="1613" lemmaEntries="1613" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1422" sofa="1" begin="283" end="285" lemma="1625" lemmaEntries="1625" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1448" sofa="1" begin="295" end="298" lemma="1647" lemmaEntries="1647" dictionaryMatch="true" posTag="CC" takmiPOS="conjunction">
+        <ftrs>coordinating</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1461" sofa="1" begin="299" end="303" lemma="1657" lemmaEntries="1657" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1474" sofa="1" begin="304" end="305" lemma="1669" lemmaEntries="1669" dictionaryMatch="true" posTag="DT" takmiPOS="determiner"/>
+    <uimatypes:LowercaseAlphabetic xmi:id="1487" sofa="1" begin="306" end="312" lemma="1676" lemmaEntries="1676" dictionaryMatch="true" posTag="JJ" takmiPOS="adjective"/>
+    <uimatypes:LowercaseAlphabetic xmi:id="1500" sofa="1" begin="313" end="316" lemma="1683" lemmaEntries="1683" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1522" sofa="1" begin="317" end="322" lemma="1518" lemmaEntries="1518" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1545" sofa="1" begin="323" end="326" lemma="1701" lemmaEntries="1701" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1558" sofa="1" begin="327" end="330" lemma="1711" lemmaEntries="1711" dictionaryMatch="true" posTag="JJ" takmiPOS="adjective"/>
+    <uimatypes:LowercaseAlphabetic xmi:id="1571" sofa="1" begin="331" end="335" lemma="1718" lemmaEntries="1718" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1765" sofa="1" begin="346" end="348" lemma="1899" lemmaEntries="1899" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1818" sofa="1" begin="352" end="360" lemma="1814" lemmaEntries="1814" dictionaryMatch="true" posTag="VBN" takmiPOS="verb">
+        <ftrs>pastParticiple</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="1841" sofa="1" begin="361" end="363" lemma="1924" lemmaEntries="1924" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2004" sofa="1" begin="389" end="394" lemma="2000" lemmaEntries="2000" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2017" sofa="1" begin="395" end="398" lemma="2197" lemmaEntries="2197" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2066" sofa="1" begin="403" end="406" lemma="2217" lemmaEntries="2217" dictionaryMatch="true" posTag="PRP$" takmiPOS="pronoun">
+        <ftrs>possessive</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2079" sofa="1" begin="407" end="413" lemma="2227" lemmaEntries="2227" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2124" sofa="1" begin="420" end="425" lemma="2120" lemmaEntries="2120" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2137" sofa="1" begin="426" end="429" lemma="2251" lemmaEntries="2251" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2318" sofa="1" begin="447" end="450" lemma="2513" lemmaEntries="2513" dictionaryMatch="true" posTag="WP" takmiPOS="pronoun">
+        <ftrs>wh</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2340" sofa="1" begin="451" end="456" lemma="2336" lemmaEntries="2336" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2353" sofa="1" begin="457" end="460" lemma="2531" lemmaEntries="2531" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2402" sofa="1" begin="465" end="467" lemma="2551" lemmaEntries="2551" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2415" sofa="1" begin="468" end="474" lemma="2563" lemmaEntries="2563" dictionaryMatch="true" posTag="VBG" takmiPOS="verb">
+        <ftrs>gerund/presentParticiple</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2428" sofa="1" begin="475" end="476" lemma="2573" lemmaEntries="2573" dictionaryMatch="true" posTag="DT" takmiPOS="determiner"/>
+    <uimatypes:LowercaseAlphabetic xmi:id="2441" sofa="1" begin="477" end="484" lemma="2580" lemmaEntries="2580" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2454" sofa="1" begin="485" end="487" lemma="2590" lemmaEntries="2590" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2644" sofa="1" begin="508" end="511" lemma="2848" lemmaEntries="2848" dictionaryMatch="true" posTag="WP" takmiPOS="pronoun">
+        <ftrs>wh</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2666" sofa="1" begin="512" end="517" lemma="2662" lemmaEntries="2662" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2679" sofa="1" begin="518" end="521" lemma="2866" lemmaEntries="2866" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2715" sofa="1" begin="525" end="529" lemma="2882" lemmaEntries="2882" dictionaryMatch="true" posTag="VBD" takmiPOS="verb">
+        <ftrs>past</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2728" sofa="1" begin="530" end="534" lemma="2892" lemmaEntries="2892" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2764" sofa="1" begin="539" end="544" lemma="2909" lemmaEntries="2909" dictionaryMatch="true" posTag="MD" takmiPOS="verb">
+        <ftrs>aux</ftrs>
+        <ftrs>modal</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2777" sofa="1" begin="545" end="553" lemma="2920" lemmaEntries="2920" dictionaryMatch="true" posTag="VB" takmiPOS="verb"/>
+    <uimatypes:LowercaseAlphabetic xmi:id="2790" sofa="1" begin="554" end="559" lemma="2927" lemmaEntries="2927" dictionaryMatch="true" posTag="PRP$" takmiPOS="pronoun">
+        <ftrs>possessive</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2803" sofa="1" begin="560" end="567" lemma="2937" lemmaEntries="2937" dictionaryMatch="true" posTag="NNS" takmiPOS="noun">
+        <ftrs>plural</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="2816" sofa="1" begin="568" end="573" lemma="2947" lemmaEntries="2947" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3003" sofa="1" begin="585" end="590" lemma="2999" lemmaEntries="2999" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3016" sofa="1" begin="591" end="594" lemma="3212" lemmaEntries="3212" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3052" sofa="1" begin="602" end="609" lemma="3229" lemmaEntries="3229" dictionaryMatch="true" posTag="CC" takmiPOS="conjunction">
+        <ftrs>coordinating</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3065" sofa="1" begin="610" end="613" lemma="3239" lemmaEntries="3239" dictionaryMatch="true" posTag="PRP$" takmiPOS="pronoun">
+        <ftrs>possessive</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3078" sofa="1" begin="614" end="620" lemma="3249" lemmaEntries="3249" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3114" sofa="1" begin="627" end="629" lemma="3265" lemmaEntries="3265" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3136" sofa="1" begin="630" end="638" lemma="3132" lemmaEntries="3132" dictionaryMatch="true" posTag="VBN" takmiPOS="verb">
+        <ftrs>pastParticiple</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3149" sofa="1" begin="639" end="641" lemma="3283" lemmaEntries="3283" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3327" sofa="1" begin="660" end="666" lemma="3480" lemmaEntries="3480" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3340" sofa="1" begin="667" end="669" lemma="3490" lemmaEntries="3490" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3376" sofa="1" begin="677" end="679" lemma="3508" lemmaEntries="3508" dictionaryMatch="true" posTag="VBZ" takmiPOS="verb">
+        <ftrs>3rd</ftrs>
+        <ftrs>singular</ftrs>
+        <ftrs>present</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3398" sofa="1" begin="680" end="688" lemma="3394" lemmaEntries="3394" dictionaryMatch="true" posTag="VBN" takmiPOS="verb">
+        <ftrs>pastParticiple</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <uimatypes:LowercaseAlphabetic xmi:id="3411" sofa="1" begin="689" end="691" lemma="3526" lemmaEntries="3526" dictionaryMatch="true" posTag="IN" takmiPOS="adposition">
+        <ftrs>preposition</ftrs>
+    </uimatypes:LowercaseAlphabetic>
+    <ecmuk:DicEmploymentInd xmi:id="170" sofa="1" begin="62" end="67" lemma="175"/>
+    <ecmuk:DicEmploymentInd xmi:id="411" sofa="1" begin="86" end="91" lemma="416"/>
+    <ecmuk:DicEmploymentInd xmi:id="560" sofa="1" begin="118" end="122" lemma="565"/>
+    <ecmuk:DicEmploymentInd xmi:id="736" sofa="1" begin="152" end="160" lemma="741"/>
+    <ecmuk:DicEmploymentInd xmi:id="998" sofa="1" begin="207" end="215" lemma="1003"/>
+    <ecmuk:DicEmploymentInd xmi:id="1209" sofa="1" begin="233" end="238" lemma="1214"/>
+    <ecmuk:DicEmploymentInd xmi:id="1513" sofa="1" begin="317" end="322" lemma="1518"/>
+    <ecmuk:DicEmploymentInd xmi:id="1995" sofa="1" begin="389" end="394" lemma="2000"/>
+    <ecmuk:DicEmploymentInd xmi:id="2115" sofa="1" begin="420" end="425" lemma="2120"/>
+    <ecmuk:DicEmploymentInd xmi:id="2331" sofa="1" begin="451" end="456" lemma="2336"/>
+    <ecmuk:DicEmploymentInd xmi:id="2657" sofa="1" begin="512" end="517" lemma="2662"/>
+    <ecmuk:DicEmploymentInd xmi:id="2994" sofa="1" begin="585" end="590" lemma="2999"/>
+    <ecmuk:DicEmploymentInd xmi:id="3127" sofa="1" begin="630" end="638" lemma="3132"/>
+    <ecmuk:DicEmploymentInd xmi:id="3389" sofa="1" begin="680" end="688" lemma="3394"/>
+    <ecmuk:DictCompany xmi:id="205" sofa="1" begin="72" end="75" lemma="211" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="446" sofa="1" begin="96" end="102" lemma="452" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="595" sofa="1" begin="127" end="133" lemma="601" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="771" sofa="1" begin="164" end="166" lemma="777" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="1033" sofa="1" begin="219" end="222" lemma="1039" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="1244" sofa="1" begin="243" end="252" lemma="1250" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="1535" sofa="1" begin="327" end="335" lemma="1541" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="1831" sofa="1" begin="364" end="379" lemma="1837" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="2030" sofa="1" begin="399" end="401" lemma="2036" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="2150" sofa="1" begin="430" end="436" lemma="2156" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="2366" sofa="1" begin="461" end="463" lemma="2372" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="2467" sofa="1" begin="488" end="497" lemma="2473" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="2692" sofa="1" begin="522" end="524" lemma="2698" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="2741" sofa="1" begin="535" end="538" lemma="2747" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="3029" sofa="1" begin="595" end="601" lemma="3035" segment="IT"/>
+    <ecmuk:DictCompany xmi:id="3162" sofa="1" begin="642" end="651" lemma="3168" segment="IT"/>
+    <uimatypes:UppercaseAlphabetic xmi:id="215" sofa="1" begin="72" end="75" lemma="211" lemmaEntries="211" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:UppercaseAlphabetic>
+    <uimatypes:UppercaseAlphabetic xmi:id="781" sofa="1" begin="164" end="166" lemma="777" lemmaEntries="777" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:UppercaseAlphabetic>
+    <uimatypes:UppercaseAlphabetic xmi:id="1043" sofa="1" begin="219" end="222" lemma="1039" lemmaEntries="1039" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:UppercaseAlphabetic>
+    <uimatypes:UppercaseAlphabetic xmi:id="2040" sofa="1" begin="399" end="401" lemma="2036" lemmaEntries="2036" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:UppercaseAlphabetic>
+    <uimatypes:UppercaseAlphabetic xmi:id="2376" sofa="1" begin="461" end="463" lemma="2372" lemmaEntries="2372" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:UppercaseAlphabetic>
+    <uimatypes:UppercaseAlphabetic xmi:id="2702" sofa="1" begin="522" end="524" lemma="2698" lemmaEntries="2698" dictionaryMatch="true" posTag="NN" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+    </uimatypes:UppercaseAlphabetic>
+    <uimatypes:UppercaseAlphabetic xmi:id="2751" sofa="1" begin="535" end="538" lemma="2747" lemmaEntries="2747" dictionaryMatch="true" posTag="NNP" takmiPOS="noun">
+        <ftrs>singular</ftrs>
+        <ftrs>proper</ftrs>
+    </uimatypes:UppercaseAlphabetic>
+    <uimatypes:ClauseEndingPunctuation xmi:id="228" sofa="1" begin="75" end="76" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="469" sofa="1" begin="102" end="103" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="618" sofa="1" begin="133" end="134" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="794" sofa="1" begin="166" end="167" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="907" sofa="1" begin="181" end="182" dictionaryMatch="false" posTag="," takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="972" sofa="1" begin="202" end="203" dictionaryMatch="false" posTag="," takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="1056" sofa="1" begin="222" end="223" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="1293" sofa="1" begin="263" end="264" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="1584" sofa="1" begin="335" end="336" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="1880" sofa="1" begin="379" end="380" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="2053" sofa="1" begin="401" end="402" dictionaryMatch="false" posTag="," takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="2173" sofa="1" begin="436" end="437" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="2305" sofa="1" begin="445" end="446" dictionaryMatch="false" posTag="," takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="2389" sofa="1" begin="463" end="464" dictionaryMatch="false" posTag="," takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="2490" sofa="1" begin="497" end="498" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="2829" sofa="1" begin="573" end="574" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="3185" sofa="1" begin="651" end="652" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <uimatypes:ClauseEndingPunctuation xmi:id="3460" sofa="1" begin="700" end="701" dictionaryMatch="false" posTag="." takmiPOS="residual">
+        <ftrs>symbol</ftrs>
+        <ftrs>unk</ftrs>
+    </uimatypes:ClauseEndingPunctuation>
+    <tt:SentenceAnnotation xmi:id="378" sofa="1" begin="2" end="76" sentenceNumber="1"/>
+    <tt:SentenceAnnotation xmi:id="514" sofa="1" begin="80" end="103" sentenceNumber="2"/>
+    <tt:SentenceAnnotation xmi:id="677" sofa="1" begin="107" end="134" sentenceNumber="3"/>
+    <tt:SentenceAnnotation xmi:id="861" sofa="1" begin="138" end="167" sentenceNumber="4"/>
+    <tt:SentenceAnnotation xmi:id="1176" sofa="1" begin="171" end="223" sentenceNumber="5"/>
+    <tt:SentenceAnnotation xmi:id="1363" sofa="1" begin="227" end="264" sentenceNumber="6"/>
+    <tt:SentenceAnnotation xmi:id="1732" sofa="1" begin="268" end="336" sentenceNumber="7"/>
+    <tt:SentenceAnnotation xmi:id="1962" sofa="1" begin="340" end="380" sentenceNumber="8"/>
+    <tt:SentenceAnnotation xmi:id="2272" sofa="1" begin="384" end="437" sentenceNumber="9"/>
+    <tt:SentenceAnnotation xmi:id="2611" sofa="1" begin="441" end="498" sentenceNumber="10"/>
+    <tt:SentenceAnnotation xmi:id="2961" sofa="1" begin="502" end="574" sentenceNumber="11"/>
+    <tt:SentenceAnnotation xmi:id="3304" sofa="1" begin="578" end="652" sentenceNumber="12"/>
+    <tt:SentenceAnnotation xmi:id="3557" sofa="1" begin="656" end="701" sentenceNumber="13"/>
+    <tt:ParagraphAnnotation xmi:id="383" sofa="1" begin="2" end="80" paragraphNumber="1"/>
+    <tt:ParagraphAnnotation xmi:id="519" sofa="1" begin="80" end="107" paragraphNumber="2"/>
+    <tt:ParagraphAnnotation xmi:id="682" sofa="1" begin="107" end="138" paragraphNumber="3"/>
+    <tt:ParagraphAnnotation xmi:id="866" sofa="1" begin="138" end="171" paragraphNumber="4"/>
+    <tt:ParagraphAnnotation xmi:id="1181" sofa="1" begin="171" end="227" paragraphNumber="5"/>
+    <tt:ParagraphAnnotation xmi:id="1368" sofa="1" begin="227" end="268" paragraphNumber="6"/>
+    <tt:ParagraphAnnotation xmi:id="1737" sofa="1" begin="268" end="340" paragraphNumber="7"/>
+    <tt:ParagraphAnnotation xmi:id="1967" sofa="1" begin="340" end="384" paragraphNumber="8"/>
+    <tt:ParagraphAnnotation xmi:id="2277" sofa="1" begin="384" end="441" paragraphNumber="9"/>
+    <tt:ParagraphAnnotation xmi:id="2616" sofa="1" begin="441" end="502" paragraphNumber="10"/>
+    <tt:ParagraphAnnotation xmi:id="2966" sofa="1" begin="502" end="578" paragraphNumber="11"/>
+    <tt:ParagraphAnnotation xmi:id="3309" sofa="1" begin="578" end="656" paragraphNumber="12"/>
+    <tt:ParagraphAnnotation xmi:id="3562" sofa="1" begin="656" end="705" paragraphNumber="13"/>
+    <ecmuk:DicNegationInd xmi:id="1778" sofa="1" begin="348" end="351" lemma="1783"/>
+    <ecmuk:DicNegationInd xmi:id="1787" sofa="1" begin="348" end="351" lemma="1792"/>
+    <tt:TokenAnnotation xmi:id="1796" sofa="1" begin="348" end="351" lemma="1911" lemmaEntries="1911" dictionaryMatch="true" posTag="RB" takmiPOS="adverb"/>
+    <ecmuk:DictOrganisationSuffix xmi:id="3437" sofa="1" begin="697" end="700" lemma="3443" sector="public"/>
+    <en:Person xmi:id="3567" sofa="1" begin="2" end="17" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3579" sofa="1" begin="80" end="85" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3591" sofa="1" begin="107" end="112" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3603" sofa="1" begin="138" end="148" gender="female" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3615" sofa="1" begin="171" end="181" gender="female" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3627" sofa="1" begin="227" end="232" gender="female" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3639" sofa="1" begin="268" end="272" gender="female" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3651" sofa="1" begin="340" end="345" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3663" sofa="1" begin="384" end="388" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3675" sofa="1" begin="414" end="419" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3687" sofa="1" begin="441" end="445" gender="female" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3705" sofa="1" begin="502" end="507" gender="female" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3723" sofa="1" begin="578" end="584" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3735" sofa="1" begin="621" end="626" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Person xmi:id="3747" sofa="1" begin="670" end="676" gender="male" ruleId="D201FCB8DC5A1CB6FDA2D264EE697ECC"/>
+    <en:Organisation xmi:id="3573" sofa="1" begin="72" end="75" name="IBM" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3585" sofa="1" begin="96" end="102" name="Oracle" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3597" sofa="1" begin="127" end="133" name="Oracle" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3609" sofa="1" begin="164" end="166" name="Hewlett Packard" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3621" sofa="1" begin="219" end="222" name="IBM" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3633" sofa="1" begin="243" end="252" name="Accenture" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3645" sofa="1" begin="327" end="335" name="IBM" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3657" sofa="1" begin="364" end="379" name="Hewlett Packard" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3669" sofa="1" begin="399" end="401" name="Hewlett Packard" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3681" sofa="1" begin="430" end="436" name="Oracle" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3693" sofa="1" begin="461" end="463" name="Hewlett Packard" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3699" sofa="1" begin="488" end="497" name="Accenture" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3711" sofa="1" begin="522" end="524" name="Hewlett Packard" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3717" sofa="1" begin="535" end="538" name="IBM" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3729" sofa="1" begin="595" end="601" name="Oracle" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3741" sofa="1" begin="642" end="651" name="Accenture" ruleId="A11C894749EECE23154A2414C6A43DE8"/>
+    <en:Organisation xmi:id="3753" sofa="1" begin="692" end="700" name="Acme" ruleId="3A93391CD3C14ADDA6803EE3B3ED9AA8"/>
+    <en:Employment xmi:id="3759" sofa="1" begin="2" end="75" employee="Martin Saunders" employer="IBM" paragraph="383" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3768" sofa="1" begin="80" end="102" employee="Harry" employer="Oracle" paragraph="519" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3777" sofa="1" begin="107" end="133" employee="Harry" employer="Oracle" paragraph="682" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3786" sofa="1" begin="138" end="166" employee="Mary Smith" employer="Hewlett Packard" paragraph="866" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3795" sofa="1" begin="171" end="222" employee="Susan Read" employer="IBM" paragraph="1181" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3804" sofa="1" begin="227" end="252" employee="Joyce" employer="Accenture" paragraph="1368" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3813" sofa="1" begin="268" end="335" employee="Mary" employer="IBM" paragraph="1737" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3822" sofa="1" begin="384" end="401" employee="Tony" employer="Hewlett Packard" paragraph="2277" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3831" sofa="1" begin="414" end="436" employee="Linda" employer="Oracle" paragraph="2277" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3840" sofa="1" begin="441" end="463" employee="Mary" employer="Hewlett Packard" paragraph="2616" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3849" sofa="1" begin="502" end="524" employee="Joyce" employer="Hewlett Packard" paragraph="2966" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3858" sofa="1" begin="578" end="601" employee="Martin" employer="Oracle" paragraph="3309" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3867" sofa="1" begin="621" end="651" employee="Peter" employer="Accenture" paragraph="3309" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <en:Employment xmi:id="3876" sofa="1" begin="670" end="700" employee="Martin" employer="Acme" paragraph="3562" persist="true" ruleId="9ED0EAA1C8ADD612EE2EC5C335DD34BB"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#13;&#10;Martin Saunders who lives in Berksire and owns a stupid dog works for IBM.&#13;&#10;&#13;&#10;Harry works for Oracle.&#13;&#10;&#13;&#10;Harry does work for Oracle.&#13;&#10;&#13;&#10;Mary Smith is employed by HP.&#13;&#10;&#13;&#10;Susan Read, who lives in London, is employed by IBM.&#13;&#10;&#13;&#10;Joyce works for Accenture in Belfast.&#13;&#10;&#13;&#10;Mary who lives in Berksire and owns a stupid dog works for big blue.&#13;&#10;&#13;&#10;Larry isn't employed by Hewlett Packard.&#13;&#10;&#13;&#10;Tony works for HP, his friend Linda works for Oracle.&#13;&#10;&#13;&#10;Mary, who works for HP, is having a meeting at Accenture.&#13;&#10;&#13;&#10;Joyce who works for HP said that IBM would announce their results today.&#13;&#10;&#13;&#10;Martin works for Oracle whereas his cousin Peter is employed by Accenture.&#13;&#10;&#13;&#10;The result is Martin is employed by Acme Ltd.&#13;&#10;&#13;&#10;"/>
+    <tt:Lemma xmi:id="23" key="Martin" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="394" key="Harry" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="530" key="Harry" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="693" key="Mary" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="877" key="Susan" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1192" key="Joyce" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1379" key="Mary" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1748" key="Larry" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1978" key="Tony" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2098" key="Linda" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2288" key="Mary" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2627" key="Joyce" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2977" key="Martin" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3097" key="Peter" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3359" key="Martin" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="247" key="saunder" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="291" key="berksire" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="452" key="Oracle" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="601" key="Oracle" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="813" key="smith" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1075" key="read" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1121" key="london" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1250" key="Accenture" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1347" key="belfast" partOfSpeech="4" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1635" key="berksire" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1934" key="hewlett" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1946" key="packard" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2156" key="Oracle" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2473" key="Accenture" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3035" key="Oracle" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3168" key="Accenture" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3473" key="the" partOfSpeech="9" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3536" key="acme" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3443" key="limited" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="259" key="who" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="269" key="live" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="281" key="in" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="303" key="and" partOfSpeech="8" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="313" key="own" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="325" key="a" partOfSpeech="9" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="332" key="stupid" partOfSpeech="4" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="339" key="dog" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="175" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="357" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="416" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="493" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="634" key="do" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="646" key="work" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="656" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="823" key="be" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="741" key="employ" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="841" key="by" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1089" key="who" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1099" key="live" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1111" key="in" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1137" key="be" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1003" key="employ" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1155" key="by" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1214" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1320" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1337" key="in" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1603" key="who" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1613" key="live" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1625" key="in" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1647" key="and" partOfSpeech="8" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1657" key="own" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1669" key="a" partOfSpeech="9" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1676" key="stupid" partOfSpeech="4" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1683" key="dog" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1518" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1701" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1711" key="big" partOfSpeech="4" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1718" key="blue" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1899" key="be" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1814" key="employ" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1924" key="by" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2000" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2197" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2217" key="his" partOfSpeech="9" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2227" key="friend" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2120" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2251" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2513" key="who" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2336" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2531" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2551" key="be" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2563" key="have" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2573" key="a" partOfSpeech="9" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2580" key="meeting" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2590" key="at" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2848" key="who" partOfSpeech="1" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2662" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2866" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2882" key="say" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2892" key="that" partOfSpeech="8" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2909" key="will" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2920" key="announce" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2927" key="their" partOfSpeech="9" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2937" key="result" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2947" key="today" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2999" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3212" key="for" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3229" key="whereas" partOfSpeech="8" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3239" key="his" partOfSpeech="9" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3249" key="cousin" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3265" key="be" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3132" key="employ" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3283" key="by" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3480" key="result" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3490" key="be" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3508" key="be" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3394" key="employ" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="3526" key="by" partOfSpeech="6" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="565" key="work" partOfSpeech="2" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="211" key="IBM" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="777" key="Hewlett Packard" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1039" key="IBM" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1541" key="IBM" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1837" key="Hewlett Packard" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2036" key="Hewlett Packard" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2372" key="Hewlett Packard" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2698" key="Hewlett Packard" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="2747" key="IBM" partOfSpeech="3" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1783" key="n't" partOfSpeech="5" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1792" key="not" partOfSpeech="5" frost_ExtendedPOS="0"/>
+    <tt:Lemma xmi:id="1911" key="not" partOfSpeech="5" frost_ExtendedPOS="0"/>
+    <cas:View sofa="1" members="8 17 388 524 687 871 1186 1373 1742 1972 2092 2282 2621 2971 3091 3353 27 40 92 398 456 534 605 697 710 881 894 959 1196 1254 1280 1383 1435 1752 1854 1867 1982 2102 2160 2292 2477 2631 2981 3039 3101 3172 3314 3363 3424 3447 53 66 79 105 118 131 144 157 179 192 420 433 547 569 582 723 745 758 920 933 946 985 1007 1020 1218 1231 1267 1396 1409 1422 1448 1461 1474 1487 1500 1522 1545 1558 1571 1765 1818 1841 2004 2017 2066 2079 2124 2137 2318 2340 2353 2402 2415 2428 2441 2454 2644 2666 2679 2715 2728 2764 2777 2790 2803 2816 3003 3016 3052 3065 3078 3114 3136 3149 3327 3340 3376 3398 3411 170 411 560 736 998 1209 1513 1995 2115 2331 2657 2994 3127 3389 205 446 595 771 1033 1244 1535 1831 2030 2150 2366 2467 2692 2741 3029 3162 215 781 1043 2040 2376 2702 2751 228 469 618 794 907 972 1056 1293 1584 1880 2053 2173 2305 2389 2490 2829 3185 3460 378 514 677 861 1176 1363 1732 1962 2272 2611 2961 3304 3557 383 519 682 866 1181 1368 1737 1967 2277 2616 2966 3309 3562 1778 1787 1796 3437 3567 3579 3591 3603 3615 3627 3639 3651 3663 3675 3687 3705 3723 3735 3747 3573 3585 3597 3609 3621 3633 3645 3657 3669 3681 3693 3699 3711 3717 3729 3741 3753 3759 3768 3777 3786 3795 3804 3813 3822 3831 3840 3849 3858 3867 3876"/>
+</xmi:XMI>

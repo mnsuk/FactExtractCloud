@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>com.mns.uima.FactExtractCloud</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>FactExtractCloud-ae</name>
+    <description/>
+    <version>!PROJECT_VERSION</version>
+    <vendor>martin.saunders@uk.ibm.com</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>account</name>
+        <description>Specifies the Cloudant account for the server. e.g. "5f0e2d4f-a4f7-4615-b0e4-274b7b964509-bluemix"</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>username</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>password</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>database</name>
+        <description>Cloudant database name. It will be created if it doesn't exist.</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    <configurationParameter>
+        <name>trigger</name>
+        <description>The feature name that tirggers if an annotation is persisted or not (default: persist).</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>account</name>
+        <value>
+          <string>obtain from Bluemix service credentials</string>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>username</name>
+        <value>
+          <string>obtain from Bluemix service credentials</string>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>password</name>
+        <value>
+          <string>obtain from Bluemix service credentials</string>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>database</name>
+        <value>
+          <string>extracts</string>
+        </value>
+      </nameValuePair>
+    <nameValuePair>
+        <name>trigger</name>
+        <value>
+          <string>persist</string>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription/>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs/>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>
